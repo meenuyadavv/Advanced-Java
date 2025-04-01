@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: white;
+        }
+        h1{
+            color: red;
+        }
+        .container{
+            height: 350px;
+            width: 450px;
+            border: 2px solid palevioletred;
+            margin: 70px auto;
+            padding: 10px ;
+            text-transform: capitalize;
+           
+            font-size: large;
+            opacity: 0.5;
+            border-radius: 3px;
+        }
+     
+.container2{
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+
+
+        button{
+            height: 20px 10px;
+        }
+        .login{ margin-left: 60px;
+            height: 20px;
+            width: 250px;
+            border: 1px solid palevioletred;
+             border-radius: 3px;
+        }
+        .one{border: 1px solid palevioletred;
+            border-radius: 3px;
+            height: 20px;
+            width: 200px;
+            
+
+        }
+        label{color: red;
+
+        }
+        
+        button{
+                 background-color: pink;
+                 color:red;
+                 border-radius: 3px;
+                 border: 1px solid palevioletred;
+                 height:40px;
+                 width:100px;
+                 margin: 60px 10px;
+                 padding: 5px 5px;
+                 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form action="authentication.jsp" method='post'>
+    <h1>LogIn-form</h1>
+
+    <div class="container2">
+
+    <label for="">enter your name:<input class="one" type="text" placeholder="name" name='username'></label><br> <br>
+    <label for="">enter your password:<input class="one" type="password" placeholder="password" name='password'></label><br>
+    
+    <button> Submit </button>
+    <button> Cancel </button>
+    
+</form>
+</div> <!--container2-->
+</div>
+</body>
+</html>
